@@ -26,13 +26,12 @@
    1. Getting data into PostgreSQL
    2. Updating data
      * Review update statements
-    * If a geometry column does not exist, we need to create it: `ALTER TABLE tablename ADD COLUMN  geom(geometry, 4326);`
+     * If a geometry column does not exist, we need to create it: `ALTER TABLE tablename ADD COLUMN  geom(geometry, 4326);`
      * Don't forget to create an index: `CREATE INDEX tablename_geom_idx ON tablename USING GIST(geom);`
    3. Inserting data
      * If you have new data you want to append to an existing dataset, INSERT is the right tool for you
-    * `UPSERT` If you want to insert data into the DB if it doesn't exist, but update otherwise, UPSERT is  the tool for you
+     * `UPSERT` If you want to insert data into the DB if it doesn't exist, but update otherwise, UPSERT is  the tool for you
    4. CREATE TABLE operations in PostgreSQL
-
      * Documentation: <https://www.postgresql.org/docs/12/sql-createtable.html>
      * Examples: <https://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/>
      * There are a lot of ways to create tables in PostgreSQL
@@ -68,12 +67,9 @@
      * Reference: <https://www.postgresqltutorial.com/postgresql-add-column/>
      * Documentation: <https://www.postgresql.org/docs/12/sql-altertable.html>
 3. Template Patterns with Flask
-
   1. Review full page template
   2. Templating in sub-pages
-
 4. Sending results with forms / Live Demo
-
   0. Previously we had to manually construct API requests in the URL
   1. Structure of a form
   2. Form data is added to query strings in GET requests (request body for POSTs)
