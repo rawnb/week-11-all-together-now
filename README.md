@@ -67,12 +67,12 @@
      * Reference: <https://www.postgresqltutorial.com/postgresql-add-column/>
      * Documentation: <https://www.postgresql.org/docs/12/sql-altertable.html>
 3. Template Patterns with Flask
-  1. Review full page template
-  2. Templating in sub-pages
+   1. Review full page template
+   2. Templating in sub-pages
 4. Sending results with forms / Live Demo
-  0. Previously we had to manually construct API requests in the URL
-  1. Structure of a form
-  2. Form data is added to query strings in GET requests (request body for POSTs)
+   0. Previously we had to manually construct API requests in the URL
+   1. Structure of a form
+   2. Form data is added to query strings in GET requests (request body for POSTs)
 
 ## CSS Frameworks
 
