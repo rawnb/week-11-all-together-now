@@ -150,7 +150,14 @@ For all of the exercises here, let's use our browser's developer tools to inspec
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
    ```
    What happens after the stylesheet is loaded?
-3. Building a site — Let's tinker with the app that's in this week's repo
+3. Let's add some of the components from Skeleton
+   1. Add two [buttons](http://getskeleton.com/#buttons):
+      * White one (default)
+      * Blue one (primary class)
+   2. Let's create a [basic grid](http://getskeleton.com/#grid)
+      * Create a row with two columns, each at half the width of the outer container. Add some [Lorem Ipsum](https://loremipsum.io/#generator) text to one, and a button to the other.
+      * Create another row that has two columns, one 1/3rd width, the other 2/3rds. Fill the narrower one with Lorem Ipsum and the wider one with the [Skeleton Form Example](http://getskeleton.com/#forms)
+4. Building a site — Let's tinker with the app that's in this week's repo
    1. Get going
       * Start up the conda environment: `conda activate musa509week6`
       * Make sure you have the [`pg-credentials.json`](https://canvas.upenn.edu/courses/1533813/files/89654914/download?download_frd=1) file in the directory.

@@ -16,6 +16,8 @@
     * **If you don't have a partner and want one please let me know**
   - Final Project Datasets
     * Safegraph Data Consortium
+      * [Partial list in Final Project repo](https://github.com/MUSA-509/final-project/blob/main/data.md)
+      * More on [Data Consortium Portal](https://catalog.safegraph.io/app/browse)
     * Anything else I can help with?
 
 ## Homework (not graded)
