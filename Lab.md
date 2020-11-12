@@ -3,7 +3,7 @@
 ## Outline
 
 * [HTML Overview](#html-overview)
-* [Lab Exercises](#lab-exercises)
+* [Lab Exercises](#lab-practice)
 
 ## HTML Overview
 
@@ -127,7 +127,9 @@ For all of the exercises here, let's use our browser's developer tools to inspec
 **Accessing Developer Tools**
 > Right-click an element on the page and select Inspect to jump into the Elements panel. Or press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).
 
-**Exercises**
+### Exercises
+
+Open the [`html_elements.html`](html_elements.html) both in your browser and in your text editor.
 
 1. Using the [`html_elements.html`](html_elements.html) HTML file:
    1. Fill in the `title` tags in the `head`
@@ -147,6 +149,7 @@ For all of the exercises here, let's use our browser's developer tools to inspec
    ```HTML
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
    ```
+   What happens after the stylesheet is loaded?
 3. Building a site — Let's tinker with the app that's in this week's repo
    1. Get going
       * Start up the conda environment: `conda activate musa509week6`
