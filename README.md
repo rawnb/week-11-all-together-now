@@ -9,6 +9,14 @@
 ## Lab
 
 * [Lab Writeup](Lab.md)
+* [Demo App — Vacant Building Viewer](http://ec2-3-80-74-56.compute-1.amazonaws.com/)
+* Announcements
+  - Final Project Groups
+    * I've met with about 1/3rd of groups so far. Please schedule some time with me if you haven't already. I still have 10am - 11am free on Friday.
+    * **If you don't have a partner and want one please let me know**
+  - Final Project Datasets
+    * Safegraph Data Consortium
+    * Anything else I can help with?
 
 ## Homework (not graded)
 
