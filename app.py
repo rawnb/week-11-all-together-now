@@ -24,11 +24,14 @@ PASSWORD = pg_creds["PASSWORD"]
 DATABASE = pg_creds["DATABASE"]
 PORT = pg_creds["PORT"]
 
-engine = create_engine(f"postgresql://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}")
+
+def get_sql_engine():
+    return create_engine(f"postgresql://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}")
 
 
 def get_neighborhood_names():
     """Gets all neighborhoods for Philadelphia"""
+    engine = get_sql_engine()
     query = text(
         """
         SELECT DISTINCT neighborhood_name
@@ -59,6 +62,7 @@ def get_bounds(geodataframe):
 
 def get_num_buildings(nname):
     """Get number of buildings in a neighborhood"""
+    engine = get_sql_engine()
     building_stats = text(
         """
         SELECT
@@ -75,6 +79,7 @@ def get_num_buildings(nname):
 
 def get_neighborhood_buildings(nname):
     """Get all buildings for a neighborhood"""
+    engine = get_sql_engine()
     vacant_buildings = text(
         """
         SELECT

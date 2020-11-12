@@ -4,10 +4,11 @@
 
 * [Slide Deck](https://docs.google.com/presentation/d/1GbWm4IdKlq6KC1H4LFPdAUh_dHb8eA2QOXmkTyluAQc/edit?usp=sharing)
 * [Lecture Outline](Lecture_Outline.md)
+* [Demo App — Vacant Building Viewer](http://ec2-3-80-74-56.compute-1.amazonaws.com/)
 
 ## Lab
 
-* TBD
+* [Lab Writeup](Lab.md)
 
 ## Homework (not graded)
 
@@ -33,3 +34,8 @@
 ### Icon libraries
 
 * [Font Awesome](https://fontawesome.com/)
+
+## Recommended Reading
+
+* Mozilla's [Intro to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+* Mozilla's [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
