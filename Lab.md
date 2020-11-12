@@ -129,8 +129,8 @@ For all of the exercises here, let's use our browser's developer tools to inspec
 
 ### Exercises
 
-Open the [`html_elements.html`](html_elements.html) both in your browser and in your text editor.
 
+0. Open the [`html_elements.html`](html_elements.html) both in your browser and in your text editor.
 1. Using the [`html_elements.html`](html_elements.html) HTML file:
    1. Fill in the `title` tags in the `head`
    2. Page Title
