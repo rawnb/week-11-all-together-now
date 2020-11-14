@@ -93,12 +93,7 @@ def get_neighborhood_buildings(nname):
         WHERE n.neighborhood_name = :nname
     """
     )
-    # render query using sqlalchemy templating
-    # Note: geopandas doesn't have safe escaping like sqlalchemy does
-    rendered_query = vacant_buildings.bindparams(nname=nname).compile(
-        bind=engine, compile_kwargs={"literal_binds": True}
-    )
-    buildings = gpd.read_postgis(rendered_query, con=engine)
+    buildings = gpd.read_postgis(vacant_buildings, con=engine, params={"nname": nname})
     return buildings
 
 
